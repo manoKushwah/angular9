@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+#progressbar li{
+  list-style: none;  
+}
+li.active {
+  background: green;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+}
+li.deactive {
+  background: rgb(34, 36, 34);
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+}
+ul#progressbar li {
+  float: left;
+  margin-left: 23px;
+  margin: 10px;
+}
+span.error {
+  color: red;
+  font-size: 12px;
+}
